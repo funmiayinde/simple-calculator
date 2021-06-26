@@ -38,7 +38,6 @@ const Calculator = (props: any) => {
     };
 
     const {displayExp, displayValue, showError} = calcExp;
-    console.log('displayValue:', displayValue);
     return (
         <div>
             {showError && <Error message={'Please enter a number'}/>}
